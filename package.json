@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -18,9 +18,10 @@
   "build": {
     "publish": [
       {
-        "provider": "github",
-        "owner": "iffy",
-        "repo": "electron-updater-example"
+        "provider": "generic",
+        "owner": "riopoetra21",
+        "repo": "nexpos_app",
+        "url": "https://github.com/riopoetra21/nexpos_app/releases/tag/"
       }
     ]
   }
